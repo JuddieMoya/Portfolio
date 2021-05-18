@@ -1,0 +1,368 @@
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:300, 400, 700&display=swap';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --burgundy-text: #f02832;
+    --dark-burgundy: #3a070a;
+    --medium-burgundy: #e7d4d4;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAV BAR SECTION */
+#mobile-nav {
+    display: none;
+}
+
+.nav-bar {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    list-style: none;
+    height: 10vh;
+    background-color:rgba(100, 100, 100, 0.2);
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+
+#name {
+    color: var(--burgundy-text);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* HERO SECTION */
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+.image-container {
+    position: relative;
+    background-image: url(/images/hero-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 0vh;
+    animation: scale 15s;
+}
+@keyframes scale {
+    0% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+h1 {
+    color:var(--burgundy-text);
+}
+
+.resume-cta {
+    border:2px solid var(--burgundy-text);
+    width: 175px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.resume-text{
+    color:darkred;
+}
+
+.resume-cta:hover{
+    background-color:rgba(100, 100, 100, 0.4);
+}
+
+/* PROJECTS SECTION */
+
+.project-container{
+    width: 100%;
+    height: auto;
+}
+
+.project-header{
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.office-project {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/images/petgram0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Hanoi-project {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/images/towerofhanoi.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.connect4-project {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/images/connect-4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.magic8-project {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/images/magic-8-ball.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-container{
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.text-container:hover {
+    height: 250px;
+}
+
+.name {
+    margin-top: 10px;
+    color: var(--dark-burgundy);
+    font-size: 2rem;
+}
+
+.content {
+    padding: 25px 0;
+    color: darkred;
+}
+
+.button {
+    border: 5px solid var(--dark-burgundy);
+    width: 160px;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+/* ABOUT SECTION */
+
+.about-container {
+    margin: 10%;
+    width: 80%;
+    height: auto;
+    background-color: #f8f8f8;
+    box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.about-image {
+    height: 450px;
+    width: 400px;
+    background-image: url(/images/jayy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.about-text {
+    height: auto;
+    width: 40%;
+    font-size: 1.5rem;
+    margin-left: 100px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    width: 30%;
+    margin: 25% 35%;
+    padding-top: 30px;
+}
+
+/* MOBILE VIEW */
+@media (max-width:768px) {
+    #nav {
+        display: none;
+    }
+    
+    #mobile-nav {
+        display: block;
+    }
+    .mobile-nav-bar{
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        z-index: 5;
+    }
+    ul {
+        background-color: rgba(0, 0, 0, 0.625);
+    }
+    .office-project {
+        width: 250px;
+        height: 400px;
+        background: #fff;
+        position: relative;
+        box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin: 50px;
+        background-image: url(/images/petgram0.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .Hanoi-project {
+        width: 250px;
+        height: 400px;
+        background: #fff;
+        position: relative;
+        box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin: 50px;
+        background-image: url(/images/towerofhanoi.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .connect4-project {
+        width: 250px;
+        height: 400px;
+        background: #fff;
+        position: relative;
+        box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin: 50px;
+        background-image: url(/images/connect-4.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .magic8-project {
+        width: 250px;
+        height: 400px;
+        background: #fff;
+        position: relative;
+        box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin: 50px;
+        background-image: url(/images/magic-8-ball.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .about-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f8f8f8;
+        box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
+    }
+    .about-image {
+        margin-top: 20px;
+        height: 300px;
+        width: 225px;
+        background-image: url(/images/jayy.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .about-text {
+        margin-left: 20px;
+        width: 100%;
+        font-size: 0.75rem;        
+    }
+    .social-icons i {
+        font-size: 2rem;
+        padding: 10px;
+        margin-left: -10px;
+    }
+}
