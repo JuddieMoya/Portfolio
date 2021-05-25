@@ -7,4 +7,9 @@ Responsive Portfolio Website Judith Moya
 
 
 
+#### Deployment
+- while deploying i initially had a problem with images displaying and i found out it was an issue to do with characters and file path and the linked Article helped me
+``` https://github.community/t/unable-so-see-my-pics-on-my-already-publishedsite/144099/2```
 
+#### Source Code Citation
+- DThompsonDev tutorial or resposive website portfolio
