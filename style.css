@@ -156,7 +156,7 @@ h1 {
     box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(/images/petgram0.jpg);
+    background-image: url(images/petgram0.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -169,7 +169,7 @@ h1 {
     box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(/images/towerofhanoi.JPG);
+    background-image: url(images/towerofhanoi.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -182,7 +182,7 @@ h1 {
     box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(/images/connect-4.png);
+    background-image: url(images/connect-4.png);
     background-size: cover;
     background-position: center;
 }
@@ -195,7 +195,7 @@ h1 {
     box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(/images/magic-8-ball.jpeg);
+    background-image: url(images/magic-8-ball.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -253,7 +253,7 @@ h1 {
 .about-image {
     height: 450px;
     width: 400px;
-    background-image: url(/images/jayy.jpg);
+    background-image: url(images/jayy.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -300,7 +300,7 @@ h1 {
         box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         margin: 50px;
-        background-image: url(/images/petgram0.jpg);
+        background-image: url(images/petgram0.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -312,7 +312,7 @@ h1 {
         box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         margin: 50px;
-        background-image: url(/images/towerofhanoi.JPG);
+        background-image: url(images/towerofhanoi.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -324,7 +324,7 @@ h1 {
         box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         margin: 50px;
-        background-image: url(/images/connect-4.png);
+        background-image: url(images/connect-4.png);
         background-size: cover;
         background-position: center;
     }
@@ -336,7 +336,7 @@ h1 {
         box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         margin: 50px;
-        background-image: url(/images/magic-8-ball.jpeg);
+        background-image: url(images/magic-8-ball.jpeg);
         background-size: cover;
         background-position: center;
     }
@@ -351,7 +351,7 @@ h1 {
         margin-top: 20px;
         height: 300px;
         width: 225px;
-        background-image: url(/images/jayy.jpg);
+        background-image: url(images/jayy.jpg);
         background-size: cover;
         background-position: center;
     }
