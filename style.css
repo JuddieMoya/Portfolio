@@ -67,7 +67,7 @@ li a {
 }
 .image-container {
     position: relative;
-    background-image: url(./images/hero-img.PNG);
+    background-image: url(../images/hero-img.PNG);
     background-size: cover;
     background-position: center;
     height: 100%;
