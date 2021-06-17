@@ -12,4 +12,4 @@ Responsive Portfolio Website Judith Moya
 ``` https://github.community/t/unable-so-see-my-pics-on-my-already-publishedsite/144099/2```
 
 #### Source Code Citation
-- DThompsonDev tutorial or resposive website portfolio
+- DThompsonDev tutorial 
