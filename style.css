@@ -200,6 +200,19 @@ h1 {
     background-position: center;
 }
 
+.weatherapp-project {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(images/weatherr.png);
+    background-size: cover;
+    background-position: center;
+}
+
 .text-container{
     position: absolute;
     height: 75px;
@@ -337,6 +350,18 @@ h1 {
         border-radius: 10px;
         margin: 50px;
         background-image: url(images/magic-8-ball.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .weatherapp-project {
+        width: 250px;
+        height: 400px;
+        background: #fff;
+        position: relative;
+        box-shadow: 15px 7px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin: 50px;
+        background-image: url(images/weatherr.png);
         background-size: cover;
         background-position: center;
     }
